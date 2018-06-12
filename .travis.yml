@@ -1,11 +1,1 @@
-language: node_js
-node_js:
-    - "6"
-git:
-  submodules: false
-install:
-    - npm install
-    - npm install -g codecov istanbul
-test:
-    - npm run test
-
+language: java
