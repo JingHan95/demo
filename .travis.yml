@@ -1,4 +1,6 @@
 language: java
+script: test.js
 
 jdk:
   - oraclejdk8
+  
