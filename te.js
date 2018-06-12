@@ -4,4 +4,4 @@ function square(a){
     return a*a;
 }
 
-assert.equal(square(4),26);
+assert.equal(square(4),16);
