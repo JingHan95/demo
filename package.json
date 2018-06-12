@@ -4,8 +4,8 @@
   "author": "Jing",
   "version": "0.0.1",
   "main": "te.js",
-  "license": "MIT"
   "scripts": {
     "test": "node te.js"
   }
+  "license": "MIT"
 }
