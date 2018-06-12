@@ -1,6 +1,12 @@
-language: java
-script: test.js
-
-jdk:
-  - oraclejdk8
-  
+language: node_js
+node_js:
+    - "6"
+git:
+  submodules: false
+install:
+    - npm install
+    - npm install -g codecov istanbul
+test:
+    - npm run test
+script:
+    - npm run coverage
