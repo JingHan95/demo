@@ -1,7 +1,8 @@
 /**
  * 
  */
-
+var fs = require('fs');
+response.sendFile(fs.readFileSync('example.html','UTF-8'));
 window.onload=function()
 {
 	/*
@@ -48,9 +49,9 @@ window.onload=function()
 //	alert(imgs[0].alt);//获取img的id值test
 //	console.log(imgs[0].alt);
 //	console.log(imgs.length);
-	for(var i=0;i<labels.length;i++){
-//		console.log(labels[i].name);
-		straria=labels[i].name;
+	for(var a=0;a<labels.length;a++){
+//		console.log(labels[a].name);
+		straria=labels[a].name;
 //		console.log(straria);
 
 
@@ -132,10 +133,6 @@ window.onload=function()
 	}
  //   console.log(window.getComputedStyle(test)['width']);//500px;
     //document.defaultView.getComputedStyle(element,null)[attr]/window.getComputedStyle(element,null)[attr]   
-
-
-
-
 
 
 
