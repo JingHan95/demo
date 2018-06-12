@@ -1,8 +1,7 @@
 /**
  * 
  */
-var fs = require('fs');
-response.sendFile(fs.readFileSync('example.html','UTF-8'));
+
 window.onload=function()
 {
 	/*
