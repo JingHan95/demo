@@ -1,11 +1,12 @@
 {
   "name": "learn-travis-YOURNAME",
-  "description": "Simple Travis-CI",
-  "author": "Jing",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "your name here :-)",
   "version": "0.0.1",
-  "main": "te.js",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
   "scripts": {
-    "test": "node te.js"
+    "test": "jshint te.js"
   }
-  "license": "MIT"
 }
