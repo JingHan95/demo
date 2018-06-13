@@ -7,6 +7,6 @@
     "jshint": "^2.6.0"
   },
   "scripts": {
-    "test": "node js/test.js"
+    "test": "node add.test.js"
   }
 }
