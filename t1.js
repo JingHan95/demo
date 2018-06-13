@@ -1,8 +1,7 @@
 /**
  * 
  */
-
-function()
+window.onload=function()
 {
 	/*
 	var x=document.getElementsByTagName("*");
