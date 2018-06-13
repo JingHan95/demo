@@ -10,6 +10,6 @@ function mine(a){
 
 
 
-assert.equal(square(4),6);
-assert.equal(mine(4),5);
 assert.equal(square(4),16);
+assert.equal(mine(4),5);
+assert.equal(square(4),6);
