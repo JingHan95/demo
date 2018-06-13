@@ -3,6 +3,7 @@
   "description": "Simple Travis-CI check for JSHint (Code Linting)",
   "author": "your name here :-)",
   "version": "0.0.1",
+  "main": "example.html",
   "scripts": {
     "test": "node js/test.js"
   }
