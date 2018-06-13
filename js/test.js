@@ -2,7 +2,7 @@
  * 
  */
 
-window.onload=function()
+function test()
 {
 	/*
 	var x=document.getElementsByTagName("*");
